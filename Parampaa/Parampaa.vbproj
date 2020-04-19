@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DA4727E-9060-4EA7-BCBE-A57A06B5985E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Parampaa.My.MyApplication</StartupObject>
+    <RootNamespace>Parampaa</RootNamespace>
+    <AssemblyName>Parampaa</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Parampaa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Parampaa.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akhir.Designer.vb">
+      <DependentUpon>akhir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="akhir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="last.Designer.vb">
+      <DependentUpon>last.vb</DependentUpon>
+    </Compile>
+    <Compile Include="last.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv10.Designer.vb">
+      <DependentUpon>lv10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv11.Designer.vb">
+      <DependentUpon>lv11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv12.Designer.vb">
+      <DependentUpon>lv12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menang.Designer.vb">
+      <DependentUpon>menang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv8.Designer.vb">
+      <DependentUpon>lv8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv1.Designer.vb">
+      <DependentUpon>lv1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv2.Designer.vb">
+      <DependentUpon>lv2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv3.Designer.vb">
+      <DependentUpon>lv3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv5.Designer.vb">
+      <DependentUpon>lv5.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv4.Designer.vb">
+      <DependentUpon>lv4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv7.Designer.vb">
+      <DependentUpon>lv7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lv9.Designer.vb">
+      <DependentUpon>lv9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="lv6.Designer.vb">
+      <DependentUpon>lv6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lv6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nyawa.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="akhir.resx">
+      <DependentUpon>akhir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="last.resx">
+      <DependentUpon>last.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv1.resx">
+      <DependentUpon>lv1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv10.resx">
+      <DependentUpon>lv10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv11.resx">
+      <DependentUpon>lv11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv12.resx">
+      <DependentUpon>lv12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menang.resx">
+      <DependentUpon>menang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv2.resx">
+      <DependentUpon>lv2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv3.resx">
+      <DependentUpon>lv3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv5.resx">
+      <DependentUpon>lv5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv4.resx">
+      <DependentUpon>lv4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv6.resx">
+      <DependentUpon>lv6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv7.resx">
+      <DependentUpon>lv7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv8.resx">
+      <DependentUpon>lv8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lv9.resx">
+      <DependentUpon>lv9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polije.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphic4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Polije1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
